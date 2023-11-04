@@ -70,7 +70,8 @@ https://archive.eksworkshop.com/intermediate/290_argocd/install/
 ```
 
 DevSecOps pipeline is quite comprehensive, covering infrastructure provisioning with Terraform, Jenkins for CI/CD, and deploying applications to EKS using ArgoCD.
-Step 1: Provisioning an EC2 Instance with Terraform
+
+Step 1: Provisioning an EC2 Instance with Terraform.
 In this initial step, you utilize Terraform to automatically provision an EC2 instance on AWS. This instance serves as the foundation for your DevSecOps pipeline, where Jenkins, SonarQube, Trivy, kubectl, AWS CLI, and Terraform are installed. This automated infrastructure setup ensures that you have a clean environment for subsequent DevOps activities.
 
 Step 2: Installing Jenkins, SonarQube, Trivy, kubectl, AWS CLI, and Terraform
